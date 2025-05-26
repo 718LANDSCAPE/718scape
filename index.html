@@ -3,56 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us | 718LANDSCAPE</title>
+  <title>Home | 718LANDSCAPE</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-green-50 text-gray-800 font-sans">
+
+  <!-- Header -->
   <header class="bg-green-700 text-white p-6">
-    <h1 class="text-4xl font-bold">718LANDSCAPE</h1>
-    <p class="text-lg">Grounded in Excellence. Growing with Purpose.</p>
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">718</h1>
+      <nav class="space-x-4 text-lg">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="about718.html" class="hover:underline">About</a>
+        <a href="#" class="hover:underline">Services</a>
+        <a href="#" class="hover:underline">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="max-w-5xl mx-auto p-6 space-y-10">
-    <section>
-      <h2 class="text-3xl font-bold text-green-800">About Us</h2>
-      <p class="mt-4">718LANDSCAPE, LLC is a Georgia-based landscaping company dedicated to high-quality, eco-conscious land care. Founded with the goal of elevating communities and landscapes simultaneously, our headquarters is proudly located in Dunwoody, GA. As a self-taught founder-led business, we are actively pursuing Minority Business Enterprise (MBE) and Disadvantaged Business Enterprise (DBE) certifications.</p>
-    </section>
+  <!-- Hero Section -->
+  <section class="bg-green-100 py-20 text-center">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-4xl md:text-5xl font-bold text-green-800 mb-6">Transforming s. Uplifting Communities.</h2>
+      <p class="text-lg text-gray-700 mb-8">718 delivers expert landscaping services rooted in sustainability, integrity, and craftsmanship — serving both private and public sectors across Georgia.</p>
+      <a href="#contact" class="bg-green-700 text-white px-6 py-3 rounded-lg text-lg hover:bg-green-800 transition">Get a Free Estimate</a>
+    </div>
+  </section>
 
-    <section>
-      <h2 class="text-2xl font-semibold text-green-700">What We Do</h2>
-      <ul class="list-disc list-inside mt-2">
-        <li>Commercial Landscaping: Offices, retail complexes, corporate grounds</li>
-        <li>Private Estate and Airbnb Property Beautification</li>
-        <li>Government & Municipal Groundskeeping (cemeteries, parks, and public land)</li>
-        <li>Eco-Conscious Design & Native Plant Integration</li>
-        <li>Enhancements: Pressure Washing, Cleanup Services, Seasonal Upgrades</li>
-      </ul>
-    </section>
+  <!-- Services Preview -->
+  <section class="max-w-6xl mx-auto py-16 px-6">
+    <h3 class="text-3xl font-bold text-green-800 text-center mb-10">Our Services</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white shadow-lg p-6 rounded-lg">
+        <h4 class="text-xl font-semibold text-green-700 mb-2">Commercial Landscaping</h4>
+        <p>We maintain retail centers, offices, and municipal buildings with professional-grade care.</p>
+      </div>
+      <div class="bg-white shadow-lg p-6 rounded-lg">
+        <h4 class="text-xl font-semibold text-green-700 mb-2">Private Property Care</h4>
+        <p>From estates to Airbnb rentals, we enhance curb appeal and green space harmony.</p>
+      </div>
+      <div class="bg-white shadow-lg p-6 rounded-lg">
+        <h4 class="text-xl font-semibold text-green-700 mb-2">Eco-Friendly Enhancements</h4>
+        <p>Smart landscaping with native plant integration, cleanup services, and seasonal upgrades.</p>
+      </div>
+    </div>
+  </section>
 
-    <section>
-      <h2 class="text-2xl font-semibold text-green-700">Our Experts & Strategic Partners</h2>
-      <p class="mt-2">Although a startup, 718LANDSCAPE is guided by a professional network of industry veterans. Our partners include certified landscape architects, horticulturists, irrigation system specialists, arborists, and environmental consultants. These collaborations provide mentorship, compliance assurance, and the technical backbone for scalable, expert-driven service delivery. Together, we maintain a firm commitment to evolving our craft through continual learning and innovation.</p>
-    </section>
+  <!-- Call to Action -->
+  <section id="contact" class="bg-green-700 text-white py-16 text-center">
+    <h3 class="text-3xl font-bold mb-4">Ready to Elevate Your Property?</h3>
+    <p class="mb-6 text-lg">Contact us today to schedule a consultation or request a quote.</p>
+    <a href="mailto:info@718scape.com" class="bg-white text-green-700 font-semibold px-6 py-3 rounded hover:bg-green-100">Email Us</a>
+  </section>
 
-    <section>
-      <h2 class="text-2xl font-semibold text-green-700">Our Values</h2>
-      <ul class="list-disc list-inside mt-2">
-        <li><strong>Integrity:</strong> Transparent, ethical service from the ground up.</li>
-        <li><strong>Craftsmanship:</strong> Every detail matters — excellence is our standard.</li>
-        <li><strong>Environmental Stewardship:</strong> Smart landscaping that respects nature.</li>
-        <li><strong>Community Impact:</strong> We provide jobs and mentorship in underserved communities.</li>
-        <li><strong>Growth Through Knowledge:</strong> Self-taught, driven, and aligned with experts.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2 class="text-2xl font-semibold text-green-700">Vision for the Future</h2>
-      <p class="mt-2">718LANDSCAPE is scaling with intention. As we work toward becoming a certified MBE and DBE, our goal is to serve as a premier vendor for public contracts while remaining a trusted, high-touch service provider for private clients. Our business model thrives on long-term relationships, continuous education, and the pursuit of landscaping excellence.</p>
-    </section>
-  </main>
-
-  <footer class="bg-green-700 text-white p-6 mt-12 text-center">
-    <p>Contact us at <a href="mailto:info@718scape.com" class="underline">info@718scape.com</a> | 718-395-7224 | Dunwoody, GA</p>
+  <!-- Footer -->
+  <footer class="bg-green-800 text-white p-6 text-center">
+    <p>&copy; 2025 718, LLC | 718-395-7224 | Dunwoody, GA | <a href="mailto:info@718.com" class="underline">info@718cape.com</a></p>
   </footer>
+
 </body>
 </html>
+
