@@ -1,19 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Services</title>
-  <style>
-    body { font-family: Arial, sans-serif; background: #ffffff; color: #333; padding: 2rem; }
-    h1, h2 { color: #2e7d32; }
-    nav a { margin: 0 1rem; text-decoration: none; color: #2e7d32; font-weight: bold; }
-    ul { line-height: 1.6; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services | 718LANDSCAPE</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about718.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+<body class="bg-green-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-green-700 text-white p-6">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">718LANDSCAPE</h1>
+      <nav class="space-x-4 text-lg">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="about718.html" class="hover:underline">About</a>
+        <a href="services.html" class="underline font-bold">Services</a>
+        <a href="contact.html" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Services Content -->
+  <main class="max-w-5xl mx-auto p-6 space-y-10">
+    <section>
+      <h2 class="text-3xl font-bold text-green-800">Our Services</h2>
+      <p class="mt-4">718LANDSCAPE offers a full suite of services to meet the needs of commercial, private, and public sector clients. We combine skilled labor, environmental responsibility, and attention to detail in every job.</p>
+    </section>
+
+    <section>
+      <h3 class="text-2xl font-semibold text-green-700">Core Landscaping Services</h3>
+      <ul class="list-disc list-inside mt-2 space-y-2">
+        <li>Commercial Property Groundskeeping</li>
+        <li>Private Estate & Airbnb Beautification</li>
+        <li>Public Sector Maintenance (Parks, Cemeteries, Municipal Land)</li>
+        <li>Eco-Friendly Lawn Care & Native Plant Design</li>
+        <li>Seasonal Planting & Mulching</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3 class="text-2xl font-semibold text-green-700">Enhancement Services</h3>
+      <ul class="list-disc list-inside mt-2 space-y-2">
+        <li>Pressure Washing & Exterior Cleaning</li>
+        <li>Leaf Removal & Lot Cleanup</li>
+        <li>Tree Trimming & Shrub Maintenance</li>
+        <li>Irrigation System Repair & Installation</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3 class="text-2xl font-semibold text-green-700">Why Choose Us?</h3>
+      <p class="mt-2">Our team works with licensed horticulturists, arborists, and consultants to ensure top-tier service. We are reliable, environmentally conscious, and focused on customer satisfaction every step of the way.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-green-700 text-white p-6 mt-12 text-center">
+    <p>Contact us at <a href="mailto:info@718landscape.com" class="underline">info@718landscape.com</a> | Dunwoody, GA</p>
+  </footer>
+
+</body>
+</html>
